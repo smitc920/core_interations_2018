@@ -1,0 +1,44 @@
+html, body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+img{
+
+	width:100%;
+	height: 100%;
+}
+ #name{
+
+ 	width: 30%;
+ 	height: auto;
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+.header{
+	border: solid pink 1px;
+	text-align: center;
+}
+
+
+.left {
+
+	display: inline-block;
+	height: 800px;
+	width: 50%;
+	background-color: red;
+	float:left;
+
+
+}
+
+.right {
+	display: inline-block;
+	height: 800px;
+	width: 50%;
+	background-color: blue;
+	
+}
+

@@ -1,0 +1,107 @@
+
+#myVideo {
+    margin-top: 0px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+       min-width: 50%; 
+    min-height: 115%;
+}
+
+.circle{
+    z-index: 100;
+    top: 10px;
+    position: absolute;
+    left: 50%;
+ height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle:hover{
+    background-color: #4682B4;
+}
+
+
+.square{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+.textbox1{
+    z-index: 100;
+    position: relative;
+margin-left: 10%;
+top: 150px;
+  width: auto;
+  height: 200px;
+}
+
+.text{
+    font-family: Courier;
+    font-size: 60px;
+        line-height: 70pt;
+letter-spacing: 7px;
+color: white;
+}
+
+.text:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.textbox2{
+        z-index: 100;
+    position: relative;
+margin-left: 10%;
+top: 250px;
+  width: 600px;
+  height: 200px;
+}
+
+.text2{
+font-family: courier;
+font-size: 15pt;
+line-height: 42pt;
+letter-spacing: 4px;
+color: white;
+}
+
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    font-family: courier;
+    bottom: 12px;
+    position: relative;
+    z-index: 1000;
+    width: 90px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+   /* background: #000;*/
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    margin-left: 85%;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
